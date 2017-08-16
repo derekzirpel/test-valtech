@@ -1,0 +1,166 @@
+html,body{
+    margin:0px;
+    height:100%;    
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+p{
+    width: 90%;
+}
+#contenedor{
+    position: absolute;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contenedor header{
+    font-weight: bold;
+    width: auto;
+    height:50px; 
+    background-color:#FF0002;
+    color: #fff;
+}
+#contenedor .ico-menu{
+    position: absolute;
+    right: 25px;
+    top: 23px;
+    width: 30px;
+    height: 30px;
+}
+#contenedor footer {
+    font-weight: bold;
+    width: auto;
+    height:50px; 
+    background-color:#FF0002;
+    color: #fff;
+    bottom: 0;
+    z-index: 1000;
+}
+#contenedor #content #lateral{
+    position:absolute;
+    top: 8%;
+    margin-top: 7px;
+	right: 0;
+    width:30%;
+    height: 86%;
+	z-index:-1000;
+	background-color:grey;
+}
+#contenedor #content {
+    min-height: 500px;
+    width: 70%;
+}
+#contenedor nav ul{
+   padding-left: 25px;
+   padding-top: 15px;
+   list-style:none;
+}
+#contenedor nav ul li{
+   list-style-type: none;
+   display: inline;
+   padding-left: 25px;
+}
+
+#contenedor #content #contenido{
+    min-height: 500px;
+    margin-left: 25px;
+}
+#contenedor .boxes{
+    width:50px;
+}
+.pater > div {
+    display: inline-block;
+    width: 33%;
+    top: 35%;
+    margin-top: 35px;
+    vertical-align: top;
+    margin: 0 auto;
+}
+.boxes-contenido{
+    margin-top: 30px;
+}
+.title{
+     font-size: 25px;
+     font-weight: bold;
+}
+
+@media(max-width: 1334px) and (max-height: 1024px) {
+    .pos-box {
+        padding-left: 15px;
+        margin-left: 50px;
+        text-align: center;
+    }
+    .pater > div {
+        padding-left: 15px;
+        margin-left: 50px;
+    }
+    #contenedor #content #lateral{
+        height: 89%;
+        margin-top: -16px;
+    }
+}
+@media(min-width: 925px) and (max-width: 1024px) {
+    .pater > div {
+        width: 100%;
+        text-align: center;
+     }
+     .pos-box {
+        padding-left: 15px;
+        margin-left: 50px;
+        margin: 10px auto 10px auto;
+     }   
+     #contenedor #content #lateral{
+        height: 94%;
+        margin-top: -73px;
+    }
+}
+@media(min-width: 880px) and (max-width: 924px) {
+    .pater > div {
+        width: 100%;
+        margin: 0 auto;
+     }
+     .pos-box {
+        padding-left: 5px;
+        margin-left: 20px;
+        margin: 10px auto 10px auto;
+     }
+     #contenedor #content #lateral{
+        height: 993.3%;
+        margin-top: -73px;
+        z-index: 1000
+    }
+}
+@media(min-width: 413px) and (max-width: 880px) {
+    .pater > div {
+        width: 100%;
+        margin: 0 auto;
+     }
+     .pos-box {
+        padding-left: 5px;
+        margin-left: 20px;
+        margin: 10px auto 10px auto;
+     }
+     #contenedor #content #lateral{
+        height: 93.3%;
+        margin-top: -73px;
+        z-index: 1000
+    }
+}
+@media(max-width: 412px) and (min-width: 320px) {
+    .pater > div {
+        width: 100%;
+        margin-left: -5px;
+        margin: 0 auto;
+     }
+     .pos-box {
+        padding-left: 5px;
+        margin-left: 20px;
+        margin: 0 auto;
+     }
+     #contenedor #content #lateral{
+        height: 94%;
+        margin-top: -85px;
+        z-index: 1000;
+    }
+}
